@@ -4,7 +4,12 @@
     /* font-weight: 400; */
     font-style: normal;
   }
-
+  
+  body {
+    background-color:rgba(241, 241, 243, 1);
+    max-width: 1280px;
+    margin: auto;
+  }
   .btn-primary{
     background-color:rgba(0, 106, 80, 1) ;
     font-size: 18px;
@@ -44,10 +49,106 @@
 
   }
   .banner-img{
-    width: 474.4;
+    width: 474.4 px;
   }
 
-  
+  /* vision of futre styles */
+  .vision-future{
+    max-width: 1280px;
+    margin: auto;
+    justify-content: space-evenly;
+
+  }
+
+  .vf-01-heading{
+    font-size: 40px;
+    font-weight: 700;
+
+
+  }
+  .vf-01-para{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+  }
+  .vf-02{
+    display: flex;
+    gap: 24px;
+  }
+  .vf-02 div{
+    padding: 32px 32px;
+    border-radius: 16px;
+    max-width: 410.67px;
+
+  }
+  .vf-02 h2{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .vf-02 p{
+    font: size 16px; ;
+    font-weight: 400 ;
+    color: rgba(14, 14, 14, 0.7) ;
+  }
+  .vf-02 button{
+    max-width: 122;
+    font-size:16px ;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+  }
+  .digital-trans{
+    background-color:rgba(84, 144, 245, 0.2) ;
+  }
+  .green{
+    background-color: rgba(150, 151, 150, 1);
+  }
+  .modern{
+    background-color: rgba(247, 235, 207, 1);
+  }
+  .btn-dt{
+    background-color: rgba(84, 144, 245, 1) ;
+  }
+  .btn-green{
+background-color: rgba(9, 161, 92, 1);
+  }
+  .btn-modern{
+ background-color:rgba(255, 194, 57, 1) ;
+  }
+
+
+  .vf-03{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 48px 24px;
+    max-width: 1280px;
+    border-radius: 16px;
+    margin-top: 32px;
+
+  }
+  .vf-03-div{
+    max-width: 1232px;
+    max-height: 160px; 
+
+  }
+
+  .vf-03-div p{
+    font-size:16px ;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.8);
+  }
+  .vf-03-div h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+  }
+  .quote{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.6);
+  }
+
   
  
   
