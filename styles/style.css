@@ -103,7 +103,7 @@
     background-color:rgba(84, 144, 245, 0.2) ;
   }
   .green{
-    background-color: rgba(150, 151, 150, 1);
+    background-color:rgba(198, 228, 214, 1) ;
   }
   .modern{
     background-color: rgba(247, 235, 207, 1);
@@ -112,7 +112,7 @@
     background-color: rgba(84, 144, 245, 1) ;
   }
   .btn-green{
-background-color: rgba(9, 161, 92, 1);
+background-color:  rgba(150, 151, 150, 1);
   }
   .btn-modern{
  background-color:rgba(255, 194, 57, 1) ;
@@ -149,6 +149,120 @@ background-color: rgba(9, 161, 92, 1);
     color: rgba(14, 14, 14, 0.6);
   }
 
+                  /*Recent news section  */
+                  
+  .news h1{
+    font-size: 40px;
+    font-weight: 700;
+
+  } 
+  .news button{
+    background-color: rgba(0, 106, 80, 1);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 13px 26px;
+
+  }
+  .news-01{
+    display: flex;
+    border-radius: 24px;
+    padding: 48px 48px;
+    gap: 32px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 32px;
+  }
+  .news-02{
+    display: flex;
+    border-radius: 24px;
+    padding: 48px 48px;
+    gap: 32px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 32px;
+  }
+  .news h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+  }
+  .news p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+
+  }
+  .news-img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+  }
   
- 
+  .daily-star{
+    width: 134px;
+    height: 40px;
+  }
+
+  /* donations section */
+  .donation{
+    gap: 32px;
+  text-align: center;
+  }
+  .btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+.btn-amount{
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+  background-color: #ffffff;
+  border: none;
+  border-radius: 16px;
+  text-align: center;
+  padding: 40px 40px 40px 40px;
+}
+
+  .donation-h1{
+ /* text-align: center; */
+  }
+
+ .donation-h1 h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+.donation-h1 p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+.donation-amount{
+  display: flex;
+  gap: 24px;
+}
+.other-amount{
+
+  max-width: 1032px;
+  margin: auto;
+}
+.other-amount input{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.3);
+  padding: 20px 40px;
+  border: none;
+}
+ .btn-DN{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px;
+  color: #ffffff;
+  background-color: rgba(0, 106, 80, 1);
+  border: none;
+  border-radius: 8px;
+ }
   
